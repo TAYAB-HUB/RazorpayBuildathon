@@ -1,0 +1,213 @@
+{
+  "ledger_decisions": [
+    {
+      "order_id": "order_R100059",
+      "decision": "match",
+      "matched_settlement_ref": "order_R100406",
+      "confidence": 0.85,
+      "reason_code": "fuzzy_id_typo",
+      "explanation": "'order_R100406' closely matches 'order_R100059' (similarity 0.85) AND settled amount matches expected net within tolerance -- high-confidence typo match."
+    },
+    {
+      "order_id": "order_R100045",
+      "decision": "match",
+      "matched_settlement_ref": "order_R010045",
+      "confidence": 0.92,
+      "reason_code": "fuzzy_id_typo",
+      "explanation": "'order_R010045' closely matches 'order_R100045' (similarity 0.92) AND settled amount matches expected net within tolerance -- high-confidence typo match."
+    },
+    {
+      "order_id": "order_R100046",
+      "decision": "match",
+      "matched_settlement_ref": "order_R100406",
+      "confidence": 0.92,
+      "reason_code": "fuzzy_id_typo",
+      "explanation": "'order_R100406' closely matches 'order_R100046' (similarity 0.92) AND settled amount matches expected net within tolerance -- high-confidence typo match."
+    },
+    {
+      "order_id": "order_R100043",
+      "decision": "match",
+      "matched_settlement_ref": "order_R010043",
+      "confidence": 0.92,
+      "reason_code": "fuzzy_id_typo",
+      "explanation": "'order_R010043' closely matches 'order_R100043' (similarity 0.92) AND settled amount matches expected net within tolerance -- high-confidence typo match."
+    },
+    {
+      "order_id": "order_R100068",
+      "decision": "exception",
+      "matched_settlement_ref": "order_R100068",
+      "confidence": 0.4,
+      "reason_code": "amount_mismatch_unexplained",
+      "explanation": "Payment ID matches exactly but settled amount deviates beyond the fee/tax model by more than the tolerance band -- needs manual review (possible chargeback or manual adjustment)."
+    },
+    {
+      "order_id": "order_R100061",
+      "decision": "exception",
+      "matched_settlement_ref": null,
+      "confidence": 0.2,
+      "reason_code": "unsettled_pending",
+      "explanation": "No settlement candidate has both a close ID match and a consistent amount; likely awaiting settlement rather than a mismatched record."
+    },
+    {
+      "order_id": "order_R100053",
+      "decision": "match",
+      "matched_settlement_ref": "order_R100053;order_R100053",
+      "confidence": 0.9,
+      "reason_code": "split_settlement_confirmed",
+      "explanation": "2 settlement rows sum to 7973.37, matching expected net 7973.37."
+    },
+    {
+      "order_id": "order_R100047",
+      "decision": "match",
+      "matched_settlement_ref": "order_R100047;order_R100047",
+      "confidence": 0.9,
+      "reason_code": "split_settlement_confirmed",
+      "explanation": "2 settlement rows sum to 25804.42, matching expected net 25804.43."
+    },
+    {
+      "order_id": "order_R100058",
+      "decision": "exception",
+      "matched_settlement_ref": null,
+      "confidence": 0.2,
+      "reason_code": "unsettled_pending",
+      "explanation": "No settlement candidate has both a close ID match and a consistent amount; likely awaiting settlement rather than a mismatched record."
+    },
+    {
+      "order_id": "order_R100044",
+      "decision": "match",
+      "matched_settlement_ref": "order_R100404",
+      "confidence": 0.92,
+      "reason_code": "fuzzy_id_typo",
+      "explanation": "'order_R100404' closely matches 'order_R100044' (similarity 0.92) AND settled amount matches expected net within tolerance -- high-confidence typo match."
+    },
+    {
+      "order_id": "order_R100041",
+      "decision": "match",
+      "matched_settlement_ref": "order_R010041",
+      "confidence": 0.92,
+      "reason_code": "fuzzy_id_typo",
+      "explanation": "'order_R010041' closely matches 'order_R100041' (similarity 0.92) AND settled amount matches expected net within tolerance -- high-confidence typo match."
+    },
+    {
+      "order_id": "order_R100042",
+      "decision": "match",
+      "matched_settlement_ref": "order_R100402",
+      "confidence": 0.92,
+      "reason_code": "fuzzy_id_typo",
+      "explanation": "'order_R100402' closely matches 'order_R100042' (similarity 0.92) AND settled amount matches expected net within tolerance -- high-confidence typo match."
+    },
+    {
+      "order_id": "order_R100051",
+      "decision": "match",
+      "matched_settlement_ref": "order_R100051;order_R100051",
+      "confidence": 0.9,
+      "reason_code": "split_settlement_confirmed",
+      "explanation": "2 settlement rows sum to 8730.34, matching expected net 8730.34."
+    },
+    {
+      "order_id": "order_R100066",
+      "decision": "exception",
+      "matched_settlement_ref": "order_R100066",
+      "confidence": 0.4,
+      "reason_code": "amount_mismatch_unexplained",
+      "explanation": "Payment ID matches exactly but settled amount deviates beyond the fee/tax model by more than the tolerance band -- needs manual review (possible chargeback or manual adjustment)."
+    },
+    {
+      "order_id": "order_R100060",
+      "decision": "exception",
+      "matched_settlement_ref": null,
+      "confidence": 0.2,
+      "reason_code": "unsettled_pending",
+      "explanation": "No settlement candidate has both a close ID match and a consistent amount; likely awaiting settlement rather than a mismatched record."
+    },
+    {
+      "order_id": "order_R100065",
+      "decision": "exception",
+      "matched_settlement_ref": "order_R100065",
+      "confidence": 0.4,
+      "reason_code": "amount_mismatch_unexplained",
+      "explanation": "Payment ID matches exactly but settled amount deviates beyond the fee/tax model by more than the tolerance band -- needs manual review (possible chargeback or manual adjustment)."
+    },
+    {
+      "order_id": "order_R100067",
+      "decision": "exception",
+      "matched_settlement_ref": "order_R100067",
+      "confidence": 0.4,
+      "reason_code": "amount_mismatch_unexplained",
+      "explanation": "Payment ID matches exactly but settled amount deviates beyond the fee/tax model by more than the tolerance band -- needs manual review (possible chargeback or manual adjustment)."
+    },
+    {
+      "order_id": "order_R100049",
+      "decision": "match",
+      "matched_settlement_ref": "order_R100049;order_R100049",
+      "confidence": 0.9,
+      "reason_code": "split_settlement_confirmed",
+      "explanation": "2 settlement rows sum to 10474.88, matching expected net 10474.88."
+    }
+  ],
+  "orphan_decisions": [
+    {
+      "decision": "exception",
+      "matched_settlement_ref": "order_R100063_refund",
+      "confidence": 0.7,
+      "reason_code": "orphan_no_invoice",
+      "explanation": "Negative/refund-shaped settlement with no corresponding ledger invoice -- expected business event, needs a refund record rather than a sale invoice."
+    },
+    {
+      "decision": "exception",
+      "matched_settlement_ref": "order_R100062_refund",
+      "confidence": 0.7,
+      "reason_code": "orphan_no_invoice",
+      "explanation": "Negative/refund-shaped settlement with no corresponding ledger invoice -- expected business event, needs a refund record rather than a sale invoice."
+    },
+    {
+      "decision": "exception",
+      "matched_settlement_ref": "order_R100402",
+      "confidence": 0.3,
+      "reason_code": "orphan_no_invoice",
+      "explanation": "Settlement has no matching ledger invoice under any candidate ledger record -- possible unrecorded sale, needs investigation."
+    },
+    {
+      "decision": "exception",
+      "matched_settlement_ref": "order_R010045",
+      "confidence": 0.3,
+      "reason_code": "orphan_no_invoice",
+      "explanation": "Settlement has no matching ledger invoice under any candidate ledger record -- possible unrecorded sale, needs investigation."
+    },
+    {
+      "decision": "exception",
+      "matched_settlement_ref": "order_R010043",
+      "confidence": 0.3,
+      "reason_code": "orphan_no_invoice",
+      "explanation": "Settlement has no matching ledger invoice under any candidate ledger record -- possible unrecorded sale, needs investigation."
+    },
+    {
+      "decision": "exception",
+      "matched_settlement_ref": "order_R100064_refund",
+      "confidence": 0.7,
+      "reason_code": "orphan_no_invoice",
+      "explanation": "Negative/refund-shaped settlement with no corresponding ledger invoice -- expected business event, needs a refund record rather than a sale invoice."
+    },
+    {
+      "decision": "exception",
+      "matched_settlement_ref": "order_R010041",
+      "confidence": 0.3,
+      "reason_code": "orphan_no_invoice",
+      "explanation": "Settlement has no matching ledger invoice under any candidate ledger record -- possible unrecorded sale, needs investigation."
+    },
+    {
+      "decision": "exception",
+      "matched_settlement_ref": "order_R100404",
+      "confidence": 0.3,
+      "reason_code": "orphan_no_invoice",
+      "explanation": "Settlement has no matching ledger invoice under any candidate ledger record -- possible unrecorded sale, needs investigation."
+    },
+    {
+      "decision": "exception",
+      "matched_settlement_ref": "order_R100406",
+      "confidence": 0.3,
+      "reason_code": "orphan_no_invoice",
+      "explanation": "Settlement has no matching ledger invoice under any candidate ledger record -- possible unrecorded sale, needs investigation."
+    }
+  ]
+}

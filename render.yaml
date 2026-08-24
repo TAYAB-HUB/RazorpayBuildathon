@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: ai-finance-controller-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn backend.app:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false   # set this manually in the Render dashboard -- never commit real keys
+      - key: PYTHON_VERSION
+        value: 3.12.3

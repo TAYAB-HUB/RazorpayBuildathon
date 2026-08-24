@@ -1,0 +1,307 @@
+{
+  "unresolved_ledger": [
+    {
+      "order_id": "order_R100059",
+      "expected_gross_amount": 11876.98,
+      "invoice_date": "2026-08-22",
+      "reason": "no_exact_id_match"
+    },
+    {
+      "order_id": "order_R100045",
+      "expected_gross_amount": 2195.71,
+      "invoice_date": "2026-08-18",
+      "reason": "no_exact_id_match"
+    },
+    {
+      "order_id": "order_R100046",
+      "expected_gross_amount": 12144.42,
+      "invoice_date": "2026-08-18",
+      "reason": "no_exact_id_match"
+    },
+    {
+      "order_id": "order_R100043",
+      "expected_gross_amount": 24640.37,
+      "invoice_date": "2026-08-10",
+      "reason": "no_exact_id_match"
+    },
+    {
+      "order_id": "order_R100068",
+      "expected_gross_amount": 16802.54,
+      "expected_net": 16406.0,
+      "reason": "amount_mismatch_exact_id",
+      "candidate_settlement": {
+        "payment_id": "order_R100068",
+        "utr": "UTR900000068",
+        "settled_amount": "15939.13",
+        "fee": "336.05",
+        "tax": "60.49",
+        "settled_at": "2026-08-04",
+        "status": "settled"
+      }
+    },
+    {
+      "order_id": "order_R100061",
+      "expected_gross_amount": 6641.89,
+      "invoice_date": "2026-08-23",
+      "reason": "no_exact_id_match"
+    },
+    {
+      "order_id": "order_R100053",
+      "expected_gross_amount": 8166.09,
+      "reason": "multiple_settlement_candidates",
+      "candidate_settlements": [
+        {
+          "payment_id": "order_R100053",
+          "utr": "UTR900000054",
+          "settled_amount": "3888.2",
+          "fee": "79.64",
+          "tax": "14.34",
+          "settled_at": "2026-08-04",
+          "status": "settled"
+        },
+        {
+          "payment_id": "order_R100053",
+          "utr": "UTR900000053",
+          "settled_amount": "4085.17",
+          "fee": "83.68",
+          "tax": "15.06",
+          "settled_at": "2026-08-04",
+          "status": "settled"
+        }
+      ]
+    },
+    {
+      "order_id": "order_R100047",
+      "expected_gross_amount": 26428.13,
+      "reason": "multiple_settlement_candidates",
+      "candidate_settlements": [
+        {
+          "payment_id": "order_R100047",
+          "utr": "UTR900000047",
+          "settled_amount": "15206.77",
+          "fee": "311.49",
+          "tax": "56.07",
+          "settled_at": "2026-08-16",
+          "status": "settled"
+        },
+        {
+          "payment_id": "order_R100047",
+          "utr": "UTR900000048",
+          "settled_amount": "10597.65",
+          "fee": "217.08",
+          "tax": "39.07",
+          "settled_at": "2026-08-16",
+          "status": "settled"
+        }
+      ]
+    },
+    {
+      "order_id": "order_R100058",
+      "expected_gross_amount": 13294.55,
+      "invoice_date": "2026-08-23",
+      "reason": "no_exact_id_match"
+    },
+    {
+      "order_id": "order_R100044",
+      "expected_gross_amount": 22011.24,
+      "invoice_date": "2026-08-03",
+      "reason": "no_exact_id_match"
+    },
+    {
+      "order_id": "order_R100041",
+      "expected_gross_amount": 9660.89,
+      "invoice_date": "2026-08-06",
+      "reason": "no_exact_id_match"
+    },
+    {
+      "order_id": "order_R100042",
+      "expected_gross_amount": 8441.82,
+      "invoice_date": "2026-08-01",
+      "reason": "no_exact_id_match"
+    },
+    {
+      "order_id": "order_R100051",
+      "expected_gross_amount": 8941.36,
+      "reason": "multiple_settlement_candidates",
+      "candidate_settlements": [
+        {
+          "payment_id": "order_R100051",
+          "utr": "UTR900000052",
+          "settled_amount": "5225.76",
+          "fee": "107.04",
+          "tax": "19.27",
+          "settled_at": "2026-08-05",
+          "status": "settled"
+        },
+        {
+          "payment_id": "order_R100051",
+          "utr": "UTR900000051",
+          "settled_amount": "3504.58",
+          "fee": "71.79",
+          "tax": "12.92",
+          "settled_at": "2026-08-05",
+          "status": "settled"
+        }
+      ]
+    },
+    {
+      "order_id": "order_R100066",
+      "expected_gross_amount": 5931.63,
+      "expected_net": 5791.65,
+      "reason": "amount_mismatch_exact_id",
+      "candidate_settlement": {
+        "payment_id": "order_R100066",
+        "utr": "UTR900000066",
+        "settled_amount": "5348.13",
+        "fee": "118.63",
+        "tax": "21.35",
+        "settled_at": "2026-08-09",
+        "status": "settled"
+      }
+    },
+    {
+      "order_id": "order_R100060",
+      "expected_gross_amount": 1867.72,
+      "invoice_date": "2026-08-22",
+      "reason": "no_exact_id_match"
+    },
+    {
+      "order_id": "order_R100065",
+      "expected_gross_amount": 4236.01,
+      "expected_net": 4136.04,
+      "reason": "amount_mismatch_exact_id",
+      "candidate_settlement": {
+        "payment_id": "order_R100065",
+        "utr": "UTR900000065",
+        "settled_amount": "3884.16",
+        "fee": "84.72",
+        "tax": "15.25",
+        "settled_at": "2026-08-20",
+        "status": "settled"
+      }
+    },
+    {
+      "order_id": "order_R100067",
+      "expected_gross_amount": 16256.43,
+      "expected_net": 15872.78,
+      "reason": "amount_mismatch_exact_id",
+      "candidate_settlement": {
+        "payment_id": "order_R100067",
+        "utr": "UTR900000067",
+        "settled_amount": "15778.72",
+        "fee": "325.13",
+        "tax": "58.52",
+        "settled_at": "2026-08-21",
+        "status": "settled"
+      }
+    },
+    {
+      "order_id": "order_R100049",
+      "expected_gross_amount": 10728.06,
+      "reason": "multiple_settlement_candidates",
+      "candidate_settlements": [
+        {
+          "payment_id": "order_R100049",
+          "utr": "UTR900000050",
+          "settled_amount": "6158.95",
+          "fee": "126.16",
+          "tax": "22.71",
+          "settled_at": "2026-08-25",
+          "status": "settled"
+        },
+        {
+          "payment_id": "order_R100049",
+          "utr": "UTR900000049",
+          "settled_amount": "4315.93",
+          "fee": "88.4",
+          "tax": "15.91",
+          "settled_at": "2026-08-25",
+          "status": "settled"
+        }
+      ]
+    }
+  ],
+  "unresolved_settlements": [
+    {
+      "payment_id": "order_R100063_refund",
+      "utr": "UTR900000063",
+      "settled_amount": "-1401.1",
+      "fee": "28.7",
+      "tax": "5.17",
+      "settled_at": "2026-08-16",
+      "status": "settled"
+    },
+    {
+      "payment_id": "order_R100062_refund",
+      "utr": "UTR900000062",
+      "settled_amount": "-7250.97",
+      "fee": "148.52",
+      "tax": "26.73",
+      "settled_at": "2026-08-24",
+      "status": "settled"
+    },
+    {
+      "payment_id": "order_R100402",
+      "utr": "UTR900000042",
+      "settled_amount": "8242.59",
+      "fee": "168.84",
+      "tax": "30.39",
+      "settled_at": "2026-08-02",
+      "status": "settled"
+    },
+    {
+      "payment_id": "order_R010045",
+      "utr": "UTR900000045",
+      "settled_amount": "2143.9",
+      "fee": "43.91",
+      "tax": "7.9",
+      "settled_at": "2026-08-19",
+      "status": "settled"
+    },
+    {
+      "payment_id": "order_R010043",
+      "utr": "UTR900000043",
+      "settled_amount": "24058.85",
+      "fee": "492.81",
+      "tax": "88.71",
+      "settled_at": "2026-08-11",
+      "status": "settled"
+    },
+    {
+      "payment_id": "order_R100064_refund",
+      "utr": "UTR900000064",
+      "settled_amount": "-3635.5",
+      "fee": "74.47",
+      "tax": "13.4",
+      "settled_at": "2026-08-05",
+      "status": "settled"
+    },
+    {
+      "payment_id": "order_R010041",
+      "utr": "UTR900000041",
+      "settled_amount": "9432.89",
+      "fee": "193.22",
+      "tax": "34.78",
+      "settled_at": "2026-08-09",
+      "status": "settled"
+    },
+    {
+      "payment_id": "order_R100404",
+      "utr": "UTR900000044",
+      "settled_amount": "21491.78",
+      "fee": "440.22",
+      "tax": "79.24",
+      "settled_at": "2026-08-04",
+      "status": "settled"
+    },
+    {
+      "payment_id": "order_R100406",
+      "utr": "UTR900000046",
+      "settled_amount": "11857.81",
+      "fee": "242.89",
+      "tax": "43.72",
+      "settled_at": "2026-08-19",
+      "status": "settled"
+    }
+  ]
+}

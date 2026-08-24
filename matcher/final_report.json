@@ -1,0 +1,615 @@
+{
+  "total_ledger_records": 65,
+  "matched": 58,
+  "match_rate": 0.8923,
+  "resolution_breakdown_by_tier": {
+    "tier1_deterministic": 47,
+    "tier2_agent": 18
+  },
+  "resolved_records": [
+    {
+      "order_id": "order_R100001",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100001",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100002",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100002",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100003",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100003",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100004",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100004",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100005",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100005",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100006",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100006",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100007",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100007",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100008",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100008",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100009",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100009",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100010",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100010",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100011",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100011",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100012",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100012",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100013",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100013",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100014",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100014",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100015",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100015",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100016",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100016",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100017",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100017",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100018",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100018",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100019",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100019",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100020",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100020",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100021",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100021",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100022",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100022",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100023",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100023",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100024",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100024",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100025",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100025",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100026",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100026",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100027",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100027",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100028",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100028",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100029",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100029",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100030",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100030",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100031",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100031",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100032",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100032",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100033",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100033",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100034",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100034",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100035",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100035",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100036",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100036",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100037",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100037",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100038",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100038",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100039",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100039",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100040",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100040",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100041",
+      "final_decision": "match",
+      "resolution_tier": "tier2_agent",
+      "reason_code": "fuzzy_id_typo",
+      "settlement_ref": "order_R010041",
+      "confidence": 0.92,
+      "explanation": "'order_R010041' closely matches 'order_R100041' (similarity 0.92) AND settled amount matches expected net within tolerance -- high-confidence typo match."
+    },
+    {
+      "order_id": "order_R100042",
+      "final_decision": "match",
+      "resolution_tier": "tier2_agent",
+      "reason_code": "fuzzy_id_typo",
+      "settlement_ref": "order_R100402",
+      "confidence": 0.92,
+      "explanation": "'order_R100402' closely matches 'order_R100042' (similarity 0.92) AND settled amount matches expected net within tolerance -- high-confidence typo match."
+    },
+    {
+      "order_id": "order_R100043",
+      "final_decision": "match",
+      "resolution_tier": "tier2_agent",
+      "reason_code": "fuzzy_id_typo",
+      "settlement_ref": "order_R010043",
+      "confidence": 0.92,
+      "explanation": "'order_R010043' closely matches 'order_R100043' (similarity 0.92) AND settled amount matches expected net within tolerance -- high-confidence typo match."
+    },
+    {
+      "order_id": "order_R100044",
+      "final_decision": "match",
+      "resolution_tier": "tier2_agent",
+      "reason_code": "fuzzy_id_typo",
+      "settlement_ref": "order_R100404",
+      "confidence": 0.92,
+      "explanation": "'order_R100404' closely matches 'order_R100044' (similarity 0.92) AND settled amount matches expected net within tolerance -- high-confidence typo match."
+    },
+    {
+      "order_id": "order_R100045",
+      "final_decision": "match",
+      "resolution_tier": "tier2_agent",
+      "reason_code": "fuzzy_id_typo",
+      "settlement_ref": "order_R010045",
+      "confidence": 0.92,
+      "explanation": "'order_R010045' closely matches 'order_R100045' (similarity 0.92) AND settled amount matches expected net within tolerance -- high-confidence typo match."
+    },
+    {
+      "order_id": "order_R100046",
+      "final_decision": "match",
+      "resolution_tier": "tier2_agent",
+      "reason_code": "fuzzy_id_typo",
+      "settlement_ref": "order_R100406",
+      "confidence": 0.92,
+      "explanation": "'order_R100406' closely matches 'order_R100046' (similarity 0.92) AND settled amount matches expected net within tolerance -- high-confidence typo match."
+    },
+    {
+      "order_id": "order_R100047",
+      "final_decision": "match",
+      "resolution_tier": "tier2_agent",
+      "reason_code": "split_settlement_confirmed",
+      "settlement_ref": "order_R100047;order_R100047",
+      "confidence": 0.9,
+      "explanation": "2 settlement rows sum to 25804.42, matching expected net 25804.43."
+    },
+    {
+      "order_id": "order_R100049",
+      "final_decision": "match",
+      "resolution_tier": "tier2_agent",
+      "reason_code": "split_settlement_confirmed",
+      "settlement_ref": "order_R100049;order_R100049",
+      "confidence": 0.9,
+      "explanation": "2 settlement rows sum to 10474.88, matching expected net 10474.88."
+    },
+    {
+      "order_id": "order_R100051",
+      "final_decision": "match",
+      "resolution_tier": "tier2_agent",
+      "reason_code": "split_settlement_confirmed",
+      "settlement_ref": "order_R100051;order_R100051",
+      "confidence": 0.9,
+      "explanation": "2 settlement rows sum to 8730.34, matching expected net 8730.34."
+    },
+    {
+      "order_id": "order_R100053",
+      "final_decision": "match",
+      "resolution_tier": "tier2_agent",
+      "reason_code": "split_settlement_confirmed",
+      "settlement_ref": "order_R100053;order_R100053",
+      "confidence": 0.9,
+      "explanation": "2 settlement rows sum to 7973.37, matching expected net 7973.37."
+    },
+    {
+      "order_id": "order_R100055",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100055",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100056",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100056",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100057",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "clean_match",
+      "settlement_ref": "order_R100057",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100059",
+      "final_decision": "match",
+      "resolution_tier": "tier2_agent",
+      "reason_code": "fuzzy_id_typo",
+      "settlement_ref": "order_R100406",
+      "confidence": 0.85,
+      "explanation": "'order_R100406' closely matches 'order_R100059' (similarity 0.85) AND settled amount matches expected net within tolerance -- high-confidence typo match."
+    },
+    {
+      "order_id": "order_R100069",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "stale_timing",
+      "settlement_ref": "order_R100069",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100070",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "stale_timing",
+      "settlement_ref": "order_R100070",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100071",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "stale_timing",
+      "settlement_ref": "order_R100071",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    },
+    {
+      "order_id": "order_R100072",
+      "final_decision": "match",
+      "resolution_tier": "tier1_deterministic",
+      "reason_code": "stale_timing",
+      "settlement_ref": "order_R100072",
+      "confidence": 1.0,
+      "explanation": "Exact ID match, net amount within tolerance (diff Rs.0.0)."
+    }
+  ],
+  "exception_count": 7,
+  "exceptions": [
+    {
+      "order_id": "order_R100058",
+      "final_decision": "exception",
+      "resolution_tier": "tier2_agent",
+      "reason_code": "unsettled_pending",
+      "settlement_ref": null,
+      "confidence": 0.2,
+      "explanation": "No settlement candidate has both a close ID match and a consistent amount; likely awaiting settlement rather than a mismatched record."
+    },
+    {
+      "order_id": "order_R100060",
+      "final_decision": "exception",
+      "resolution_tier": "tier2_agent",
+      "reason_code": "unsettled_pending",
+      "settlement_ref": null,
+      "confidence": 0.2,
+      "explanation": "No settlement candidate has both a close ID match and a consistent amount; likely awaiting settlement rather than a mismatched record."
+    },
+    {
+      "order_id": "order_R100061",
+      "final_decision": "exception",
+      "resolution_tier": "tier2_agent",
+      "reason_code": "unsettled_pending",
+      "settlement_ref": null,
+      "confidence": 0.2,
+      "explanation": "No settlement candidate has both a close ID match and a consistent amount; likely awaiting settlement rather than a mismatched record."
+    },
+    {
+      "order_id": "order_R100065",
+      "final_decision": "exception",
+      "resolution_tier": "tier2_agent",
+      "reason_code": "amount_mismatch_unexplained",
+      "settlement_ref": "order_R100065",
+      "confidence": 0.4,
+      "explanation": "Payment ID matches exactly but settled amount deviates beyond the fee/tax model by more than the tolerance band -- needs manual review (possible chargeback or manual adjustment)."
+    },
+    {
+      "order_id": "order_R100066",
+      "final_decision": "exception",
+      "resolution_tier": "tier2_agent",
+      "reason_code": "amount_mismatch_unexplained",
+      "settlement_ref": "order_R100066",
+      "confidence": 0.4,
+      "explanation": "Payment ID matches exactly but settled amount deviates beyond the fee/tax model by more than the tolerance band -- needs manual review (possible chargeback or manual adjustment)."
+    },
+    {
+      "order_id": "order_R100067",
+      "final_decision": "exception",
+      "resolution_tier": "tier2_agent",
+      "reason_code": "amount_mismatch_unexplained",
+      "settlement_ref": "order_R100067",
+      "confidence": 0.4,
+      "explanation": "Payment ID matches exactly but settled amount deviates beyond the fee/tax model by more than the tolerance band -- needs manual review (possible chargeback or manual adjustment)."
+    },
+    {
+      "order_id": "order_R100068",
+      "final_decision": "exception",
+      "resolution_tier": "tier2_agent",
+      "reason_code": "amount_mismatch_unexplained",
+      "settlement_ref": "order_R100068",
+      "confidence": 0.4,
+      "explanation": "Payment ID matches exactly but settled amount deviates beyond the fee/tax model by more than the tolerance band -- needs manual review (possible chargeback or manual adjustment)."
+    }
+  ],
+  "ground_truth_scoring": {
+    "true_positives_correct_match": 57,
+    "true_negatives_correct_exception": 7,
+    "false_positives_wrong_match": 1,
+    "false_negatives_missed_match": 0,
+    "precision_of_matches": 0.983,
+    "recall_of_matches": 1.0,
+    "overall_accuracy": 0.985,
+    "misclassified_records": [
+      [
+        "order_R100059",
+        "UNSETTLED_PENDING",
+        "false_positive_match"
+      ]
+    ]
+  }
+}
