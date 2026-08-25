@@ -5,8 +5,8 @@ loop end to end: reconciling an internal ledger against a Razorpay-style settlem
 report across a 65-record synthetic batch, and reporting an honest match rate plus
 every exception it could not resolve.
 
-**Live demo:** `https://ai-finance-controller-api.onrender.com` (backend API — see `/docs`
-for interactive endpoint testing) · frontend deployed on Netlify
+**Live demo:** `https://aifinancecontroller.netlify.app`(frontend deployed on Netlify)
+`https://ai-finance-controller-api.onrender.com` (backend API — see `/docs`for interactive endpoint testing) ·
 
 ---
 
