@@ -80,6 +80,7 @@ export async function POST(req: Request, context: { params: Promise<{ id: string
       metrics,
       cash: result.cash,
       trace: result.trace,
+      createdAt: new Date().toISOString(),
     });
     if (result.matches.length) {
       await db.insert(matches).values(
@@ -127,6 +128,7 @@ export async function POST(req: Request, context: { params: Promise<{ id: string
         status: result.status,
         wallMs: result.stats.wallMs,
       },
+      createdAt: new Date().toISOString(),
     });
     await db.update(batches).set({ status: "reconciled" }).where(eq(batches.id, id));
 

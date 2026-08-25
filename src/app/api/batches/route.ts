@@ -30,6 +30,7 @@ export async function POST(req: Request) {
       status: "generated",
       counts: gen.batch.counts,
       truth: gen.batch.truth,
+      createdAt: new Date().toISOString(),
     });
     await db.insert(payments).values(gen.payments);
     await db.insert(settlements).values(gen.settlements);

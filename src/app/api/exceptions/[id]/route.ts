@@ -68,6 +68,7 @@ export async function POST(req: Request, context: { params: Promise<{ id: string
       actor: "human",
       action: `exception_${action}`,
       payload: { exceptionId: exId, category: ex.category, recordId: ex.recordId, resolution },
+      createdAt: new Date().toISOString(),
     });
 
     return NextResponse.json({ ok: true, resolution });
